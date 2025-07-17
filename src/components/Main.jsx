@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { TypeAnimation } from 'react-type-animation';
 
 const Main = () => {
@@ -21,7 +22,7 @@ const Main = () => {
                 1000,
                 "Coder",
                 1000,
-                "Terch Enthusiast",
+                "Tech Enthusiast",
                 1000,
               ]}
               wrapper="div"
@@ -31,10 +32,18 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter  size={20} className="cursor-pointer"/>
-            <FaFacebook size={20} className="cursor-pointer"/>
-            <FaInstagram size={20} className="cursor-pointer"/>
-            <FaLinkedinIn size={20} className="cursor-pointer"/>
+            <a href="https://x.com/Nursult12864663" target="_blank" rel="noopener noreferrer">
+              <FaXTwitter  size={20} className="cursor-pointer"/>
+            </a>
+            <a href="https://www.facebook.com/nursultan.zhumamuratov" target="_blank" rel="noopener noreferrer">
+              <FaFacebook size={20} className="cursor-pointer"/>
+            </a>
+            <a href="https://www.instagram.com/nursultan_zhh/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram size={20} className="cursor-pointer"/>
+            </a>
+            <a href="https://www.linkedin.com/in/nursultan-zhumamuratov/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn size={20} className="cursor-pointer"/>
+            </a>
           </div>
         </div>
       </div>

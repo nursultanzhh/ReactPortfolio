@@ -4,6 +4,14 @@ import WorkItem from "./WorkItem";
 
 const data= [
     {
+        year: "2025",
+        title: "Software Engineer",
+        company: "Freelancer at Upwork",
+        duration: "2025 Jun - Present",
+        details: "Front End Engineer for various projects, focusing on React and JavaScript."
+    }
+    ,
+    {
         year: "2024",
         title: "SC PLMM Engineer",
         company: "TCO",
